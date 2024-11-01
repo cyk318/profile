@@ -17,5 +17,8 @@ set noswapfile
 set showmatch
 "剪切板设置
 set clipboard^=unnamed,unnamedplus
+"高亮显示搜索
+set incsearch
 
 imap jk <esc>
+
