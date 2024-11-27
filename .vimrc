@@ -21,4 +21,5 @@ set clipboard^=unnamed,unnamedplus
 set incsearch
 
 imap jk <esc>
-
+nmap L $
+nmap H ^
