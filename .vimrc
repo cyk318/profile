@@ -22,4 +22,7 @@ set incsearch
 
 imap jk <esc>
 nmap L $
+vmap L $
 nmap H ^
+vmap H ^
+
