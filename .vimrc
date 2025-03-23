@@ -26,3 +26,9 @@ vmap L $
 nmap H ^
 vmap H ^
 
+"目录树使用 vim 进行移动
+set NERDTree
+let g:NERDTreeMapActivateNode='l'
+let g:NERDTreeMapJumpParent='h'
+
+
