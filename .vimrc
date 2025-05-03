@@ -20,6 +20,9 @@ set clipboard^=unnamed,unnamedplus
 "高亮显示搜索
 set incsearch
 
+"翻屏行数数量
+set scroll=10
+
 "目录树使用 vim 进行移动
 set NERDTree
 let g:NERDTreeMapActivateNode='l'
@@ -33,4 +36,3 @@ nmap L $
 vmap L $
 nmap H ^
 vmap H ^
-
