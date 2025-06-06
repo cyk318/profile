@@ -38,8 +38,21 @@ nmap H ^
 vmap H ^
 
 let mapleader = " "
-nmap <silent> <leader>bn :bn<CR>
-nmap <silent> <leader>bp :bp<CR>
-nmap <silent> <leader>q :bd<CR>
-nmap <silent> <leader>bo :tabo<CR>
+nmap <leader>bn :tabn<CR>
+nmap <leader>bp :tabp<CR>
+nmap <leader>q :bd<CR>
+nmap <leader>bo :tabo<CR>
+
+" 全局搜索
+nmap <leader>f <Action>(SearchEverywhere)
+" 重命名
+nmap <leader>r <Action>(RenameElement)
+" 专注模式
+nmap <leader>z <Action>(ToggleDistractionFreeMode)
+" Debug
+nmap <leader>d <Action>(Debug)
+" 停止运行
+nmap <leader>s <Action>(Stop)
+" 断点
+nmap <leader>b <Action>(ToggleLineBreakpoint)
 
