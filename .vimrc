@@ -20,5 +20,19 @@ set clipboard^=unnamed,unnamedplus
 "高亮显示搜索
 set incsearch
 
-imap jk <esc>
+"翻屏行数数量
+set scroll=10
 
+"目录树使用 vim 进行移动
+set NERDTree
+let g:NERDTreeMapActivateNode='l'
+let g:NERDTreeMapJumpParent='h'
+
+"关闭嗡鸣声
+set visualbell
+
+imap jk <esc>
+nmap L $
+vmap L $
+nmap H ^
+vmap H ^
