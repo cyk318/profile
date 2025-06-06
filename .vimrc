@@ -36,3 +36,10 @@ nmap L $
 vmap L $
 nmap H ^
 vmap H ^
+
+let mapleader = " "
+nmap <silent> <leader>bn :bn<CR>
+nmap <silent> <leader>bp :bp<CR>
+nmap <silent> <leader>q :bd<CR>
+nmap <silent> <leader>bo :tabo<CR>
+
